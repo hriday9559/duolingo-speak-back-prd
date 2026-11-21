@@ -10,7 +10,7 @@ Speak Back explores whether Duolingo learners would benefit from exchanging shor
 
 ## Repository status
 
-The current product requirements document is **Draft v0.3** (19 November 2026). It includes directional survey findings from 53 cleaned responses. The full v0.3 source document and earlier draft files are being added in the next repository pass; the current `docs/PRD-v0.3-status.md` is a concise status/decision summary, not a substitute for the full PRD.
+The current product requirements document is **Draft v0.3** (19 November 2026). It includes directional survey findings from 53 cleaned responses. The complete v0.3 PRD text export is available at `docs/Speak-Back-PRD-v0.3-full-text.md`. The original DOCX remains the author's source copy.
 
 Research status:
 - Survey: 55 merged responses; 53 retained after cleaning. The sample comes from the author's network and is directional, not representative.
@@ -19,8 +19,8 @@ Research status:
 
 ## Planned structure
 
-- `docs/` — PRD status summary; full master PRD and archived drafts pending upload
-- `research/` — research protocol and aggregated survey findings (summary exports)
+- `docs/` — full v0.3 PRD text export, status summary and archived v0.1/v0.2 drafts
+- `research/` — full research appendix text export and aggregated survey findings (summary exports)
 - `design/` — prototypes and design explorations
 
 ## Files intentionally kept private
