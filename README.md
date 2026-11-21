@@ -2,7 +2,7 @@
 
 An independent product-management portfolio project by Hriday Patel.
 
-> **Portfolio/practice project:** This is an independent concept exercise. It is not affiliated with, endorsed by, or produced by Duolingo.
+> **Portfolio project:** This is an independent concept exercise. It is not affiliated with, endorsed by, or produced by Duolingo.
 
 ## The idea
 
