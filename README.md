@@ -20,12 +20,12 @@ Research status:
 ## Planned structure
 
 - `docs/` — full v0.3 PRD text export, status summary and archived v0.1/v0.2 drafts
-- `research/` — full research appendix text export and aggregated survey findings (summary exports)
+- `research/` — full research appendix text export, research overview and aggregated survey summary
 - `design/` — prototypes and design explorations
 
 ## Files intentionally kept private
 
-Interview-preparation notes are not included in this public repository. They may be used privately to practise explaining the project, but they are not evidence of completed interviews.
+Interview-preparation notes are not included in this public repository. They may be used privately to practise explaining the project, but they are not evidence of completed interviews. The original timestamped raw survey export and the formula-driven analysis workbook are also not included in this initial public commit; the repository currently contains the aggregated survey summary. This avoids publishing unnecessary respondent-level or timestamp data.
 
 ## Evidence and integrity
 
