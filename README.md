@@ -10,26 +10,28 @@ Speak Back explores whether Duolingo learners would benefit from exchanging shor
 
 ## Repository status
 
-The current product requirements document is **Draft v0.3** (19 November 2026). It includes directional survey findings from 53 cleaned responses. The complete v0.3 PRD text export is available at `docs/Speak-Back-PRD-v0.3-full-text.md`. The original DOCX remains the author's source copy.
+The current working direction is the **PRD v0.4 strategy update** (22 November 2026). The original full v0.3 PRD text export remains available at `docs/Speak-Back-PRD-v0.3-full-text.md`; v0.4 is a dated update, not a claim that the entire v0.3 document has been rewritten.
 
-Research status:
+Research and validation:
 - Survey: 55 merged responses; 53 retained after cleaning. The sample comes from the author's network and is directional, not representative.
-- Interviews: not yet completed with real participants. Interview prompts and private practice/preparation notes are not research evidence and must not be represented as participant findings.
-- Product decisions, personas, RICE scores, targets and experiment assumptions are labelled as assumptions or targets where applicable.
+- Interviews: six real interviews conducted in November 2026 (three active and three lapsed learners). Notes are summaries, not verbatim transcripts.
+- Prototype testing: three participants tested the six-screen interactive prototype. All three found the core flow understandable; no major usability problems were reported. Some raised safety concerns and some suggested optional AI feedback on individually selected messages.
+- Prototype limitation: voice recording/playback was simulated; the prototype did not capture real microphone audio.
+- Product decisions, personas, RICE scores, targets and experiment assumptions must be labelled as assumptions or proposed targets where applicable.
 
-## Planned structure
+## Key documents
 
-- `docs/` — full v0.3 PRD text export, status summary and archived v0.1/v0.2 drafts
-- `research/` — full research appendix text export, research overview and aggregated survey summary
-- `design/` — prototypes and design explorations
+- `docs/` — full v0.3 PRD text export, v0.4 post-prototype update, status summary and archived v0.1/v0.2 drafts
+- `research/` — research appendix, interview synthesis and aggregated survey analysis
+- `design/` — prototype and design explorations (if added)
 
 ## Files intentionally kept private
 
-Interview-preparation notes are not included in this public repository. They may be used privately to practise explaining the project, but they are not evidence of completed interviews. The original timestamped raw survey export and the formula-driven analysis workbook are also not included in this initial public commit; the repository currently contains the aggregated survey summary. This avoids publishing unnecessary respondent-level or timestamp data.
+The original timestamped raw survey export and formula-driven analysis workbook are not included in the public repository. This avoids publishing unnecessary respondent-level or timestamp data.
 
 ## Evidence and integrity
 
-Report survey findings as counts (for example, “30 of 53”), state the denominator, and disclose sample limitations. Do not present hypothetical interview answers as real interviews. Do not imply access to Duolingo internal data.
+Report survey findings as counts (for example, “30 of 53”), state the denominator, and disclose sample limitations. Report interview themes as qualitative findings, not population estimates. Describe prototype feedback as early qualitative usability evidence, not proof of demand or retention impact. Do not imply access to Duolingo internal data.
 
 ## Author
 
