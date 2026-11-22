@@ -39,6 +39,6 @@ Hriday Patel
 
 ## Portfolio case study
 
-The complete portfolio case study is available in [portfolio/Speak-Back-Case-Study.md](portfolio/Speak-Back-Case-Study.md). It covers the problem, survey and interview findings, competitive context, product choice, MVP scope, prioritisation, prototype walkthrough, proposed metrics, experiment plan, usability feedback and limitations.
+The complete portfolio case study is available in both [PDF format](portfolio/Speak_Back_Case_Study.pdf) and [Markdown format](portfolio/Speak-Back-Case-Study.md). It covers the problem, survey and interview findings, competitive context, product choice, MVP scope, prioritisation, prototype walkthrough, proposed metrics, experiment plan, usability feedback and limitations.
 
 The case study is an independent concept project. The prototype's voice recording is simulated; proposed metrics and experiment targets are not measured outcomes.
