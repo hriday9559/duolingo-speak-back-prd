@@ -23,6 +23,7 @@ Research and validation:
 
 - `docs/` — full v0.3 PRD text export, v0.4 post-prototype update, status summary and archived v0.1/v0.2 drafts
 - `research/` — research appendix, interview synthesis and aggregated survey analysis
+- `design/Speak-Back-User-Journey-Map.md` — user journey map, derived user stories, prototype feedback and validation opportunities
 - `design/` — prototype and design explorations (if added)
 
 ## Files intentionally kept private
