@@ -1,3 +1,7 @@
+> **UPDATE (23 November 2026):** This is the original v0.3 draft, kept for historical reference. The six user interviews described below as “still to do” have since been completed, and the six-screen prototype has been tested with three participants. For the current status, see [PRD v0.4 — Post-Prototype Update](PRD-v0.4-post-prototype-update.md). For the full write-up, see the [portfolio case study (PDF)](../portfolio/Speak_Back_Case_Study.pdf) and the [research folder](../research/). The empty `[fill in]` and `[RESEARCH]` slots below were not back-filled in this version.
+
+---
+
 Speak Back: Peer Speaking Practice for Duolingo
 A portfolio PRD by Hriday Patel
 This is a student portfolio project. I am not affiliated with Duolingo. All Duolingo facts come from public sources, listed at the
