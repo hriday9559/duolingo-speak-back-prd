@@ -19,7 +19,7 @@ Version 0.4 is the consolidated main PRD. It brings together the original produc
 - **Survey:** 55 merged responses; 53 retained after cleaning. The sample comes primarily from the author's network and is directional, not representative.
 - **Interviews:** Six interviews conducted in November 2026 (three active and three lapsed learners). Notes are summaries, not verbatim transcripts.
 - **Prototype walkthrough:** Three participants tested the six-screen interactive prototype. All three found the core flow understandable; no major usability problems were reported. Some raised safety concerns and some suggested optional AI feedback on individually selected messages.
-- **UAT:** Fifteen checks against the Figma prototype: 9 Pass, 5 Fail and 1 Not Run. The failures include missing MVP UI states for recording duration, empty friend eligibility, recording cancellation / microphone permission denial and the 60-second maximum. Preset reactions are separately recorded as a P1 gap outside MVP scope. UAT-05, UAT-07, UAT-09a and UAT-10 passed for UI flow only.
+- **UAT:** Fifteen checks against the Figma prototype: 9 Pass and 6 Fail. The failures include missing MVP UI states for recording duration, empty friend eligibility, recording cancellation / microphone permission denial and the 60-second maximum. Preset reactions are separately recorded as a P1 gap outside MVP scope. UAT-05, UAT-07, UAT-09a and UAT-10 passed for UI flow only.
 - **Prototype limitation:** Voice recording and playback are simulated; the Figma prototype does not capture real microphone audio. UAT does not validate real audio capture, playback, upload or moderation.
 - Product decisions, personas, RICE scores, targets and experiment assumptions are labelled as assumptions or proposed targets where applicable.
 
@@ -38,7 +38,7 @@ Version 0.4 is the consolidated main PRD. It brings together the original produc
 - **UAT-09a — Pass (UI only):** Playback and 1× / 0.75× speed controls worked.
 - **UAT-09b — Fail (P1, out of MVP scope):** Preset reaction options are missing; reactions are not an MVP acceptance requirement.
 - **UAT-11–13 — Fail (MVP UI gaps):** No eligible-friend empty state, recording-cancel / microphone-permission-denied state, or demonstrated 60-second maximum.
-- **UAT-14 — Not Run:** The completed-exchange “spoke today” state still needs specific verification.
+- **UAT-14 — Fail (MVP UI):** The prototype does not display the “spoke today” indicator after both participants send a voice message in the same thread.
 - The UAT results validate the clickable prototype experience only; they do not validate real microphone capture or audio playback.
 
 ## Files intentionally kept private
