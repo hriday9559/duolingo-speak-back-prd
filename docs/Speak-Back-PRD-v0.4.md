@@ -13,7 +13,7 @@
 This is the **main PRD and current source of truth** for the Speak Back project. It consolidates the original v0.3 requirements with completed survey and interview research, prototype decisions, and the latest UAT findings.
 
 - **v0.4 — 25 November 2026:** Consolidated the full PRD; incorporated completed research, six-screen prototype feedback, UAT results, clarified MVP priorities, and documented known prototype gaps.
-- **v0.3 — 19 November 2026:** Original full PRD draft. Preserved in `docs/archive/Speak-Back-PRD-v0.3.md` for historical reference.
+- **v0.3 — 19 November 2026:** Original full PRD draft. Preserved in the [archive](archive/Speak-Back-PRD-v0.3.md) for historical reference.
 
 ## 1. Executive summary
 
@@ -474,7 +474,7 @@ Ten checks were run against the clickable Figma prototype. **Eight passed and tw
 | UAT-03 — Review prompt | Pass | Prompt, helpful phrases and example answer were viewable |
 | UAT-04 — Shuffle prompt | Pass | New prompt appeared and flow continued |
 | UAT-05 — Record and preview | Pass — UI only | Recording and preview controls/flow were visible; real audio capture and playback were not tested |
-| UAT-06 — Recording duration | **Fail — UI** | No timer or duration indicator; the five-second minimum could not be checked or verified |
+| UAT-06 — Recording duration | **Fail — UI** | No timer or duration indicator, and the prototype does not prevent sending a recording under five seconds; the minimum-duration rule is not implemented. |
 | UAT-07 — Re-record | Pass — UI only | Re-record returned to the recording interface; actual audio replacement was not tested |
 | UAT-08 — Send reply | Pass | Send confirmation appeared and conversation screen opened |
 | UAT-09 — Listen and react | **Fail — UI** | Play and speed controls worked, but preset reaction options were not available |
