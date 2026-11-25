@@ -263,6 +263,7 @@ This is an independent concept project. It has not been built, launched or teste
 
 ### Project materials
 
+- **Main product requirements document:** [Speak Back PRD v0.4](../docs/Speak-Back-PRD-v0.4.md)
 - **GitHub · PRD and research repository:** https://github.com/hriday9559/duolingo-speak-back-prd
 - **Figma · Interactive prototype:** https://www.figma.com/design/PjPuEXfLOmN1UfnXrM6uVc/Duolingo---Speak-Back-Prototype-v1?node-id=0-1
 
