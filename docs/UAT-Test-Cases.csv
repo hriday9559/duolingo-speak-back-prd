@@ -1,5 +1,5 @@
 "Test ID","Steps","Expected Result","Actual Result","Pass/Fail"
-"UAT-01","Open the Speak Back card from the Home screen.","The Speak Back flow opens at the Choose a Friend screen.","Not Run","Not Run"
+"UAT-01","Open the Speak Back card from the Home screen.","The Speak Back flow opens at the Choose a Friend screen.","The Speak Back flow opened at the Choose a Friend screen.","Pass"
 "UAT-02","Choose a friend from the friend list.","The selected eligible friend is carried into the next screen.","Not Run","Not Run"
 "UAT-03","Review the speaking prompt, helpful phrases and example answer.","A prompt with helpful phrases is displayed and the example answer can be viewed.","Not Run","Not Run"
 "UAT-04","Select Shuffle prompt, then select I'm ready.","A new prompt appears and the user can continue to the recording screen.","Not Run","Not Run"
