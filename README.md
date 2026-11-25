@@ -25,6 +25,7 @@ Research and validation:
 - `research/` — research appendix, interview synthesis and aggregated survey analysis
 - `design/Speak-Back-User-Journey-Map.md` — user journey map, derived user stories, prototype feedback and validation opportunities
 - `design/` — prototype and design explorations (if added)
+- `docs/Speak-Back-UAT-Test-Cases.csv` — 15 prototype-level UAT cases mapped to the MVP user stories; actual results and pass/fail are left as Not Run until executed
 
 ## Files intentionally kept private
 
