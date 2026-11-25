@@ -25,7 +25,12 @@ Research and validation:
 - `research/` — research appendix, interview synthesis and aggregated survey analysis
 - `design/Speak-Back-User-Journey-Map.md` — user journey map, derived user stories, prototype feedback and validation opportunities
 - `design/` — prototype and design explorations (if added)
-- `docs/UAT-Test-Cases.csv` — UAT test cases for the main Figma prototype flow; actual results and pass/fail are left as Not Run until tested
+- `docs/UAT-Test-Cases.csv` — results from 10 UAT checks of the main Figma prototype flow (8 pass, 2 fail). UAT-05 and UAT-07 passed for UI flow only; actual audio recording/playback was not tested.
+ 
+UAT findings:
+- UAT-06 failed: the prototype has no timer or duration indicator, so the five-second minimum cannot be verified.
+- UAT-09 failed: playback controls are present, but preset reactions are missing.
+- The UAT results validate the clickable prototype experience only; they do not validate real microphone capture or audio playback.
 
 ## Files intentionally kept private
 
