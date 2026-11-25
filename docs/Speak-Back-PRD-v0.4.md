@@ -465,7 +465,7 @@ This is early qualitative feedback from three participants. It is not representa
 
 ### UAT results
 
-Fifteen checks are now documented against the clickable Figma prototype: **9 Pass, 5 Fail and 1 Not Run**. These are prototype UI checks, not production validation. The results distinguish MVP requirements from P1 enhancements and include traceability to the user stories.
+Fifteen checks are now documented against the clickable Figma prototype: **9 Pass and 6 Fail**. These are prototype UI checks, not production validation. The results distinguish MVP requirements from P1 enhancements and include traceability to the user stories.
 
 | Test ID | User story / requirement | Result | Finding |
 |---|---|---|---|
@@ -483,7 +483,7 @@ Fifteen checks are now documented against the clickable Figma prototype: **9 Pas
 | UAT-11 | US1 | **Fail — UI** | No empty state is present for a user with no eligible mutual friends |
 | UAT-12 | US1 | **Fail — UI** | Recording-cancel control and microphone-permission-denied state are not represented |
 | UAT-13 | US1 | **Fail — UI** | The prototype does not demonstrate enforcement of the 60-second recording maximum |
-| UAT-14 | US3 | Not Run | Completed-exchange “spoke today” state has not yet been specifically verified |
+| UAT-14 | US3 | **Fail — UI** | The prototype does not display a “spoke today” indicator after both participants send a voice message in the same thread |
 
 ### User-story traceability
 
@@ -499,7 +499,7 @@ Fifteen checks are now documented against the clickable Figma prototype: **9 Pas
 - Add a visible recording timer and implement both the five-second minimum and 60-second maximum.
 - Add a clear no-eligible-friends empty state.
 - Represent and test recording cancellation and microphone permission denial, including recovery paths.
-- Verify the completed-exchange “spoke today” state for US3.
+- Add and verify the completed-exchange “spoke today” indicator for US3; it should appear only after both participants have sent a message in the same thread.
 - Preset reactions remain P1 and should not block MVP acceptance. UAT-09b is recorded as a scope gap, not an MVP failure.
 - Conduct functional audio testing with real microphone capture, playback, upload failure, retry and permission states before claiming the recording experience is validated.
 - Test safety workflows beyond navigation, including actual block enforcement, report handling and moderation response.
