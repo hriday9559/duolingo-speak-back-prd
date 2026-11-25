@@ -465,29 +465,46 @@ This is early qualitative feedback from three participants. It is not representa
 
 ### UAT results
 
-Ten checks were run against the clickable Figma prototype. **Eight passed and two failed.** The results test the prototype's visible UI and navigation, not a production implementation.
+Fifteen checks are now documented against the clickable Figma prototype: **9 Pass, 5 Fail and 1 Not Run**. These are prototype UI checks, not production validation. The results distinguish MVP requirements from P1 enhancements and include traceability to the user stories.
 
-| Test | Result | Finding |
-|---|---|---|
-| UAT-01 — Open Speak Back | Pass | Flow opened at Choose a Friend |
-| UAT-02 — Choose a friend | Pass | Selected friend carried into the next screen |
-| UAT-03 — Review prompt | Pass | Prompt, helpful phrases and example answer were viewable |
-| UAT-04 — Shuffle prompt | Pass | New prompt appeared and flow continued |
-| UAT-05 — Record and preview | Pass — UI only | Recording and preview controls/flow were visible; real audio capture and playback were not tested |
-| UAT-06 — Recording duration | **Fail — UI** | No timer or duration indicator, and the prototype does not prevent sending a recording under five seconds; the minimum-duration rule is not implemented. |
-| UAT-07 — Re-record | Pass — UI only | Re-record returned to the recording interface; actual audio replacement was not tested |
-| UAT-08 — Send reply | Pass | Send confirmation appeared and conversation screen opened |
-| UAT-09 — Listen and react | **Fail — UI** | Play and speed controls worked, but preset reaction options were not available |
-| UAT-10 — Safety controls | Pass | Report, Block, Mute and Turn Off controls were available and the prototype interactions worked |
+| Test ID | User story / requirement | Result | Finding |
+|---|---|---|---|
+| UAT-01 | US1 | Pass | Speak Back opened at Choose a Friend |
+| UAT-02 | US1 | Pass | Selected eligible friend carried forward |
+| UAT-03 | US1, US4 | Pass | Prompt, helpful phrases and example answer were viewable |
+| UAT-04 | US1, US4 | Pass | Shuffle displayed a new prompt and allowed the user to continue |
+| UAT-05 | US1 | Pass — UI only | Recording and preview UI flow worked; real audio capture and playback were not tested |
+| UAT-06 | US1 | **Fail — UI** | The prototype has no timer or duration indicator and does not prevent a recording under five seconds from being sent |
+| UAT-07 | US1 | Pass — UI only | Re-record returned to the recording interface; actual audio replacement was not tested |
+| UAT-08 | US1 | Pass | Send confirmation appeared and the conversation screen opened |
+| UAT-09a | US2 | Pass — UI only | Playback and 1× / 0.75× speed controls worked |
+| UAT-09b | US2 — P1 | **Fail — P1, out of MVP scope** | Preset reactions were not available; reactions are not an MVP acceptance requirement |
+| UAT-10 | US5 | Pass — UI flow only | Conversation menu showed Report, Block, Mute and Turn Off; each opened its corresponding prototype screen or confirmation |
+| UAT-11 | US1 | **Fail — UI** | No empty state is present for a user with no eligible mutual friends |
+| UAT-12 | US1 | **Fail — UI** | Recording-cancel control and microphone-permission-denied state are not represented |
+| UAT-13 | US1 | **Fail — UI** | The prototype does not demonstrate enforcement of the 60-second recording maximum |
+| UAT-14 | US3 | Not Run | Completed-exchange “spoke today” state has not yet been specifically verified |
+
+### User-story traceability
+
+- **US1 — Start and send a prompted voice reply:** UAT-01–08, UAT-11–13.
+- **US2 — Hear and reply to a friend's message:** UAT-09a and UAT-09b. UAT-09b is a P1 enhancement, not an MVP acceptance requirement.
+- **US3 — Recognise a completed exchange:** UAT-14.
+- **US4 — Get help before speaking:** UAT-03 and UAT-04.
+- **US5 — Stay safe and in control:** UAT-10.
+- **US6 — Review speaking progress:** Not covered by the current six-screen prototype or this UAT set; speaking history remains P1.
 
 ### UAT implications and follow-up
 
-- Add a visible recording timer/duration indicator and implement the five-second minimum and 60-second maximum in the prototype or functional build.
-- Add preset reaction UI if reactions remain in the tested prototype scope. Reactions remain P1 for the product MVP.
+- Add a visible recording timer and implement both the five-second minimum and 60-second maximum.
+- Add a clear no-eligible-friends empty state.
+- Represent and test recording cancellation and microphone permission denial, including recovery paths.
+- Verify the completed-exchange “spoke today” state for US3.
+- Preset reactions remain P1 and should not block MVP acceptance. UAT-09b is recorded as a scope gap, not an MVP failure.
 - Conduct functional audio testing with real microphone capture, playback, upload failure, retry and permission states before claiming the recording experience is validated.
 - Test safety workflows beyond navigation, including actual block enforcement, report handling and moderation response.
 
-The two UAT failures are prototype gaps. They do not establish that the product concept itself has failed.
+The prototype UI failures identify gaps between the current Figma artefact and the written requirements. They do not establish that the product concept itself has failed. “Pass (UI only)” does not validate real audio functionality.
 
 ## 15. Roadmap and release gates
 
