@@ -56,5 +56,5 @@ Three participants completed a walkthrough of the six-screen prototype.
 
 ## Source
 
-- [PRD v0.4 — Post-Prototype Update](../docs/PRD-v0.4-post-prototype-update.md)
+- [Main PRD v0.4](../docs/Speak-Back-PRD-v0.4.md)
 - [Research Appendix](../research/Research-Appendix-v1-full-text.md)
