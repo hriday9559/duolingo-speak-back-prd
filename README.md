@@ -19,7 +19,7 @@ Version 0.4 is the consolidated main PRD. It brings together the original produc
 - **Survey:** 55 merged responses; 53 retained after cleaning. The sample comes primarily from the author's network and is directional, not representative.
 - **Interviews:** Six interviews conducted in November 2026 (three active and three lapsed learners). Notes are summaries, not verbatim transcripts.
 - **Prototype walkthrough:** Three participants tested the six-screen interactive prototype. All three found the core flow understandable; no major usability problems were reported. Some raised safety concerns and some suggested optional AI feedback on individually selected messages.
-- **UAT:** Ten checks against the Figma prototype: 8 Pass and 2 Fail. The failures were the missing recording timer/duration validation (UAT-06) and missing preset reactions (UAT-09). UAT-05 and UAT-07 passed for UI flow only.
+- **UAT:** Ten checks against the Figma prototype: 8 Pass and 2 Fail. The failures were the missing recording timer/duration validation (UAT-06: the prototype does not prevent sending a recording under five seconds) and missing preset reactions (UAT-09). UAT-05 and UAT-07 passed for UI flow only.
 - **Prototype limitation:** Voice recording and playback are simulated; the Figma prototype does not capture real microphone audio. UAT does not validate real audio capture, playback, upload or moderation.
 - Product decisions, personas, RICE scores, targets and experiment assumptions are labelled as assumptions or proposed targets where applicable.
 
